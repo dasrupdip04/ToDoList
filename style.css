@@ -1,0 +1,90 @@
+* {
+    background-color: rgb(182, 182, 239);
+}
+.container{
+    background-color: rgb(119, 119, 196);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+   
+    margin: 12% 35%;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+.container h1{
+    background-color: rgb(119, 119, 196);
+    font-size: 30px;
+}
+.input{
+   
+    position: relative;
+    background-color: rgb(119, 119, 196);
+    border-radius: 10px;
+}
+#todolist{
+    padding: none;
+    border-radius: 10px;
+    position: relative;
+    list-style-type: none;
+    background-color: rgb(119, 119, 196) ;
+}
+li{
+    left: 0;
+    display: flex;flex: 1;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid;
+    padding: 4px;
+    margin-bottom: 7px;
+    border-radius: 7px;
+
+}
+li span {
+    flex: 1;  /* Ensures task text takes available space */
+    text-align: left;
+    font-size: 16px;
+}
+li button{
+    color: white;
+    border-radius: 3px;
+    background-color: rgb(62, 21, 145);
+}
+button:hover {
+    background: #6e1498;
+}
+#addtask:hover {
+    background: #6e1498;
+}
+
+li:hover{
+    transform: scale(1.1); /* Slightly increases the size */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Adds depth */
+}
+
+
+
+#todoinp {
+    
+    
+   padding: 10px; 
+   border-radius: 10px;
+}
+#addtask{
+    color: white;
+    font-size: 13px;
+    background-color: rgb(62, 21, 145);
+    padding: 9px;
+    border-radius: 7px;
+    height: 100%;
+}
+#todolist button{
+    right: 0;
+}
+
+
+.completed {
+    text-decoration: line-through;
+  }
+
